@@ -1,8 +1,9 @@
 Publish Docker Image
 
-on:
+"on":
   push:
-    branches: ["main"]
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
